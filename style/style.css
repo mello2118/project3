@@ -1,0 +1,102 @@
+body {
+  background-color:#000000;
+  color:#FFCC00;
+  font-family: "Ubuntu", Arial, sans-serif;
+}
+
+.container { 
+  float:left;
+  width:100%;
+  position:relative;
+  text-align:center;
+}  
+
+#main-navbar {
+  background-color:#FFCC00;
+  overflow:hidden;
+}
+
+#navbar-container {
+  float:left;
+  width:100%;
+  position:relative;
+}
+
+#main-navbar ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position:relative;
+  left:50%;
+  float:left;
+}
+
+#main-navbar ul li {
+  float:left;
+  position:relative;
+  right:50%;
+  display:block;
+}
+
+#main-navbar ul li a {
+  display:block;
+  text-decoration:none;
+  padding:20px 60px;
+  color:#000000;
+}
+
+#main-navbar ul li a:hover {
+  background-color:white;
+  text-decoration:none;
+  color:#FFCC00;
+}
+
+#onpage {
+  background-color:white;
+  text-decoration:underline overline;
+  color:#FFCC00;
+}
+
+#list {
+  position:relative;
+  float:left;
+  width:100%;
+  text-align:center;
+}
+
+#list ul {
+  list-style-type:none;
+  text-align:center;
+  padding:0;
+}
+
+#list ul li a {
+  display:block;
+  padding:15px 0;
+  text-decoration:none;
+}
+  
+.centerimg {
+  display: block;
+  margin: auto;
+  width: 25%;
+  border:3px solid #FFCC00;
+}
+
+video {
+  display:block;
+  width:50%;
+  margin:auto;
+  border:3px solid #FFCC00;
+}
+
+.animation {
+  position:relative;
+  animation-name: myanimation;
+  animation-duration: 3s;
+  }
+  
+  @keyframes myanimation {
+    from{opacity:0;}
+    to{opacity:1;}
+  }
