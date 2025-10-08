@@ -100,3 +100,9 @@ video {
     from{opacity:0;}
     to{opacity:1;}
   }
+  
+  map {
+    height:80%;
+    width:80%;
+    margin:auto;
+  }
