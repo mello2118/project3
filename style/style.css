@@ -85,7 +85,7 @@ body {
 
 video {
   display:block;
-  width:50%;
+  width:25%;
   margin:auto;
   border:3px solid #FFCC00;
 }
@@ -101,7 +101,7 @@ video {
     to{opacity:1;}
   }
   
-  map {
+  #map {
     height:80%;
     width:80%;
     margin:auto;
