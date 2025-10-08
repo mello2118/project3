@@ -3,10 +3,11 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Homepage</title>
+		<title>Google Maps</title>
     <link rel="reset" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    
 	</head>
   <body>
     <header>
@@ -21,5 +22,15 @@
         </div>
       </nav>
     </header>
+    <script>
+      var map;
+      function initMap(){
+      map=new google.maps.Map(document.getElementById('map'), {
+      center:{lat: 10.2926, lng: 123.9022},
+      zoom: 5
+      });
+    }
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
+    async defer></script>
   </body>
 </html>
