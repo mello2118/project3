@@ -113,11 +113,79 @@ video {
       background-color:#808080;
       color:#FD5E53;
     }
+    #main-navbar {
+      background-color:#FD5E53;
+      overflow:hidden;
+    }
+    .centerimg {
+      display: block;
+      margin: auto;
+      width: 25%;
+      border:3px solid #FD5E53;
+    }
+    video {
+      display:block;
+      width:25%;
+      margin:auto;
+      border:3px solid #FD5E53;
+    }
+    #main-navbar ul li a {
+      display:block;
+      text-decoration:none;
+      padding:20px 60px;
+      color:#000000;
+    }
+
+    #main-navbar ul li a:hover {
+      background-color:white;
+      text-decoration:none;
+      color:#FD5E53;
+    }
+
+    #onpage {
+      background-color:white;
+      text-decoration:underline overline;
+      color:#FD5E53;
+    }
   }
   
   @media screen and (min-width:900px) {
     body {
       background-color:#FFFFFF;
+      color:#800000;
+    }
+    #main-navbar {
+      background-color:#800000;
+      overflow:hidden;
+    }
+    .centerimg {
+      display: block;
+      margin: auto;
+      width: 25%;
+      border:3px solid #800000;
+    }
+    video {
+      display:block;
+      width:25%;
+      margin:auto;
+      border:3px solid #800000;
+    }
+    #main-navbar ul li a {
+      display:block;
+      text-decoration:none;
+      padding:20px 60px;
+      color:#000000;
+    }
+
+    #main-navbar ul li a:hover {
+      background-color:white;
+      text-decoration:none;
+      color:#800000;
+    }
+
+    #onpage {
+      background-color:white;
+      text-decoration:underline overline;
       color:#800000;
     }
   }
