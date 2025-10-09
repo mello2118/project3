@@ -108,7 +108,7 @@ video {
     border: 3px solid #FFCC00;
   }
   
-  @media screen and (max-width:450px) {
+  @media screen and (min-width:350px) {
     body {
       background-color:#808080;
       color:#FD5E53;
@@ -149,7 +149,7 @@ video {
     }
   }
   
-  @media screen and (max-width:900px) {
+  @media screen and (min-width:550px) {
     body {
       background-color:#FFFFFF;
       color:#800000;
